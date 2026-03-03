@@ -24,6 +24,8 @@ User Query
 - **Filtered** — semantic search + metadata type filter from classifier output
 - **Hybrid (recommended)** — retrieve 20 candidates, re-rank with 60% semantic + 40% type-match scoring
 
+For a detailed walkthrough of exactly what happens at each stage (with a traced example), see **[PIPELINE.md](PIPELINE.md)**.
+
 ## Project Structure
 
 ```
@@ -45,7 +47,8 @@ DSA-LLM/
 │   │   └── optimal_thresholds.json
 │   └── ...                              # Earlier model versions + checkpoints
 ├── .gitignore
-└── README.md
+├── README.md
+└── PIPELINE.md                      # Detailed pipeline explanation
 ```
 
 ## Notebooks
