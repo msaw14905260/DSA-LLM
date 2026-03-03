@@ -24,3 +24,5 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+/notebooks/.ipynb_checkpoints
